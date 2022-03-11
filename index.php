@@ -6,7 +6,6 @@ require_once "config.php";
   
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
-// use PhpOffice\PhpSpreadsheet\Style\NumberFormat;
   
 $spreadsheet = new Spreadsheet();
 $Excel_writer = new Xlsx($spreadsheet);
